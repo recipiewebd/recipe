@@ -1,0 +1,48 @@
+#logo {
+    width: 160px;
+    height: 100px;
+
+    position: absolute;
+    left: 1px;
+    top: -10px;
+}
+
+#name {
+    position:absolute;
+    left : 130px;
+    top: 10px;
+}
+#menu{
+    position: absolute;
+    left: 370px;
+    text-decoration: underline;
+
+}
+#contactus{
+    position: absolute;
+    left: 450px;
+    text-decoration: underline;
+}
+#search{
+    position: relative;
+    left: 570px;
+    top: 20px;
+
+}
+#searchicon{
+    position: absolute;
+    left: 560px;
+    top:27px;
+}
+
+header {
+    background-color: red;
+    height:100px;
+    width: 200px;
+}
+#bgc{
+    height: 120px;
+    width: 1920px;
+    left: 20px;
+
+}
