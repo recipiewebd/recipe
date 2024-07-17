@@ -33,18 +33,28 @@
 }
 #searchicon{
     position: absolute;
-    left: 560px;
-    top:27px;
+    left: 580px;
+    top:40px;
 }
 
-header {
-    background-color: red;
-    height:100px;
-    width: 200px;
-}
+
 #bgc{
     height: 90px;
     width: 1920px;
     left: 20px;
+
+}
+
+
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
