@@ -16,12 +16,14 @@
     position: absolute;
     left: 370px;
     text-decoration: underline;
+    color: black;
 
 }
 #contactus{
     position: absolute;
     left: 450px;
     text-decoration: underline;
+    color: black;
 }
 #search{
     position: relative;
