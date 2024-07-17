@@ -58,3 +58,45 @@ header{
     left: 0;
 
 }
+
+
+
+
+
+
+
+.image{
+    width: 350px;
+    border-radius: 18px 18px 0 0;
+}
+#all{
+    justify-content: space-evenly;
+}
+.Recipe {
+    border: 2px solid black;
+    background-color: ghostwhite;
+    border-radius: 19px 19px 0 0;
+    margin: 5px;
+    height: 460px;
+
+    width: 300px;
+
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    border-radius: 18px 18px 0 0;
+}
+
+.name{
+    bottom: 10px;
+    top: -10px;
+    position: relative;
+}
+#Chana-Masala{
+    margin-top: 10px;
+}
