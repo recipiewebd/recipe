@@ -1,162 +1,96 @@
 #logo {
     width: 160px;
     height: 100px;
-
+    margin-right: 20px;
+    top: -15px;
+    left: -5px;
     position: absolute;
-    left: 1px;
-    top: 5px;
 }
 
 #name {
-    position:absolute;
-    left : 130px;
-    top: 20px;
+    margin-left: 110px;
+
 }
-#menu{
-    position: absolute;
-    left: 370px;
+
+#trending{
+    margin-right:800px;
+
+}
+
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: auto;
+}
+
+#nav-links a {
     text-decoration: underline;
     color: black;
-
-}
-#ingredients{
-    position: absolute;
-    left: 450px;
-    text-decoration: underline;
-    color: black;
-    top: 20px;
-}
-#occasions {
-    position: absolute;
-    left: 560px;
-    text-decoration: underline;
-    color: black;
-    top: 20px;
 }
 
-#trending {
-    position: absolute;
-    left: 670px;
-    text-decoration: underline;
-    color: black;
-    top: 20px;
-
-}
-#search{
-    position: relative;
-    left: 1270px;
-    right: 1100px;
-    top: -40px;
-
-
-}
-#searchicon{
-    position: absolute;
-    left: 1260px;
-    top:40px;
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
-
-#bgc{
-    height: 90px;
-    width: 1800px;
-    left: 20px;
-    display: grid;
-
-
-
-
+#search {
+    margin-left: 5px;
+    padding: 5px;
 }
 
-
-
-header{
+header {
     background-image: url("bgimg.jpeg");
     background-size: cover;
-    z-index: 1000;
-
-
-
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     left: 0;
-
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-body{
-
-}
-
-
-
-#body{
+body {
     background-color: ghostwhite;
 }
 
+#all {
+    display: flex;
+    flex-wrap: wrap;
 
-
-
-.image{
-    width: 350px;
-
-
-
+    padding: 20px;
 }
-#all{
-    justify-content: space-evenly;
 
-}
 .Recipe {
-    border-radius: 19px 19px 19px 19px;
-
+    border-radius: 19px;
     height: 460px;
     width: 300px;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
-    position: relative;
+    margin: 15px;
     overflow: hidden;
     transition: transform 0.3s ease;
 }
 
 .Recipe:hover {
-
-    transition: 0.2s;
-    transition-timing-function: ease-in-out;
-
-
+    transform: scale(1.05);
     border-color: black;
     border-width: 1px;
-
-
-
 }
-
-
-
-#goldenbutterrice {
-    top: 0;
-}
-
 
 .image {
     width: 100%;
     height: 200px;
-    crop: auto;
-    border-radius: 18px 18px 18px 18px;
+    border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .name {
-    bottom: 10px;
-    top: -10px;
-    left: 10px;
-    color: brown;
-    position: relative;
     font-weight: bold;
+    color: brown;
+    margin-top: 10px;
 }
 
 .desc {
@@ -164,11 +98,8 @@ body{
     max-height: 100px;
     overflow-y: auto;
 }
-#Chana-Masala{
-    margin-top: 10px;
-}
 
-footer{
+footer {
     text-align: center;
     margin-top: 20px;
     background-color: #fff;
@@ -178,8 +109,4 @@ footer{
 
 footer p {
     color: #666;
-}
-
-#headr{
-    display: grid;
 }
