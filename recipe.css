@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 header {
-    background-image: url("https://res.cloudinary.com/dnf6tfgro/image/upload/v1728807314/bgimg_wh8nmr.jpg");
+background-color: gainsboro;
     width: 100%;
     background-size: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -47,6 +47,13 @@ header {
     color: black;
     font-size: 22px;
 }
+
+#nav-links a:hover {
+    transition-timing-function: ease-in-out ;
+    transition-duration: 200ms;
+    color: teal;
+}
+
 
 #name {
     margin-left: 10px;
@@ -89,7 +96,7 @@ header {
 
 
 body {
-    background-color: ghostwhite;
+    background-color: #fefeff;
 }
 
 #all {
