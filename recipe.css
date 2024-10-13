@@ -13,7 +13,7 @@
 }
 
 #trending{
-    margin-right:800px;
+    margin-right:400px;
 
 }
 
@@ -26,8 +26,12 @@
 }
 
 #nav-links a {
-    text-decoration: underline;
+    text-decoration: none;
+    padding-left: 4px;
+    margin-left: 30px;
     color: black;
+    font-size: 22px;
+
 }
 
 #search-container {
@@ -39,10 +43,13 @@
 #search {
     margin-left: 5px;
     padding: 5px;
+    border-radius: 20px;
+    border: none;
 }
 
 header {
     background-image: url("bgimg.jpeg");
+    width: 100vw;
     background-size: cover;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
