@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const foodImages = document.querySelectorAll(".Recipe");
     const searchInput = document.getElementById('search');
+    const noResults = document.getElementById('no-results');
+
 
     foodImages.forEach(image => {
         image.addEventListener("click", () => {
@@ -13,17 +15,28 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         image.style.cursor = "pointer";
     });
+
+    // Search functionality
     searchInput.addEventListener('input', function() {
         const filter = searchInput.value.toLowerCase();
+        let found = false;
 
 
         foodImages.forEach(recipe => {
             const recipeName = recipe.querySelector('h3').textContent.toLowerCase();
             if (recipeName.includes(filter)) {
                 recipe.style.display = '';
+                found = true;
             } else {
                 recipe.style.display = 'none';
             }
         });
+
+
+        if (!found) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
     });
 });
