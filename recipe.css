@@ -97,6 +97,11 @@ background-color: gainsboro;
 
 body {
     background-color: #fefeff;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 #all {
@@ -141,8 +146,9 @@ body {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
-    margin-top: 20px;
+
     background-color: #fff;
     padding: 20px;
 
