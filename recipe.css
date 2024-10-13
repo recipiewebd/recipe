@@ -160,10 +160,62 @@ footer p {
 }
 
 #no-results{
+    display: none;
     text-align: center;
     padding-left: 45%;
     color: black;
     font-size: 30px;
     font-weight: bold;
 
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dnf6tfgro/image/upload/v1728836278/top-view-bowls-with-indian-food_s0fmr1.jpg');
+    background-size: contain;
+    height: 60vh;
+    position: relative;
+}
+
+.hero-content {
+    background-color: rgba(23, 66, 116, 0.9);
+    padding: 100px;
+    padding-right: 100px;
+    margin-left: 60%;
+    border-radius: 20px;
+    color: white;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+#recipestart{
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+#recipe-button {
+    background-color: #fff;
+    color: #174274;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#recipe-button:hover {
+    color: white;
+    background-color: #174274;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
 }
