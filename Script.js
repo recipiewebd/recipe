@@ -2,6 +2,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const foodImages = document.querySelectorAll(".Recipe");
     const searchInput = document.getElementById('search');
     const noResults = document.getElementById('no-results');
+    const recipesec = document.getElementById('scroller');
+    const gotorecipe = document.getElementById('recipe-button');
+
+
+    gotorecipe.addEventListener('click',function () {
+        recipesec.scrollIntoView({behavior:'smooth'});
+
+    });
+
+
 
 
     foodImages.forEach(image => {

@@ -121,9 +121,13 @@ body {
 #all {
     display: flex;
     flex-wrap: wrap;
-
+    min-height: 81vh;
     padding: 20px;
 
+}
+
+.waste{
+display: none;
 }
 
 #src{
