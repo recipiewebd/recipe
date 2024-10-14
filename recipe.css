@@ -126,6 +126,13 @@ body {
 
 }
 
+#src{
+    height: 20px;
+    width: 20px;
+    margin-right: -5px;
+    margin-top: 3px;
+}
+
 .Recipe {
 
     border-radius: 19px;
