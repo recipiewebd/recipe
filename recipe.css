@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 header {
-background-color: gainsboro;
+    background: linear-gradient(45deg, #adbbda, #7ec8e3);
     width: 100%;
     background-size: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -17,6 +18,7 @@ background-color: gainsboro;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 #headr {
@@ -32,20 +34,31 @@ background-color: gainsboro;
 #logo {
     width: 160px;
     height: 100px;
-    margin-right: 20px;
+
+
 }
+#name{
+    margin-right: 60px;
+    margin-left: -20px;
+}
+
 
 
 #nav-links {
     display: flex;
     align-items: center;
     gap: 20px;
+
+
 }
 
 #nav-links a {
+    font-weight: lighter;
     text-decoration: none;
     color: black;
-    font-size: 22px;
+
+    font-size: 19px;
+
 }
 
 #nav-links a:hover {
@@ -56,9 +69,10 @@ background-color: gainsboro;
 
 
 #name {
-    margin-left: 10px;
+
     font-size: 28px;
-    font-weight: bold;
+
+
 }
 
 
@@ -96,11 +110,11 @@ background-color: gainsboro;
 
 
 body {
-    background-color: #fefeff;
-
+    background: linear-gradient(45deg, rgba(227, 249, 63, 0.4), rgba(86, 138, 181, 0.4));
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 
 }
 
@@ -109,11 +123,13 @@ body {
     flex-wrap: wrap;
 
     padding: 20px;
+
 }
 
 .Recipe {
+
     border-radius: 19px;
-    height: 400px;
+    height: 370px;
     width: 300px;
     margin: 15px;
     overflow: hidden;
@@ -121,7 +137,7 @@ body {
 }
 
 .Recipe:hover {
-    transform: scale(95%);
+    transform: scale(105%);
     border-color: black;
     border-width: 1px;
 }
@@ -174,14 +190,14 @@ footer p {
     justify-content: center;
     align-items: center;
     background-image: url('https://res.cloudinary.com/dnf6tfgro/image/upload/v1728836278/top-view-bowls-with-indian-food_s0fmr1.jpg');
-    background-size: contain;
+    background-size: cover;
     height: 60vh;
     position: relative;
 }
 
 .hero-content {
-    background-color: rgba(23, 66, 116, 0.9);
-    padding: 100px;
+    background-color: rgba(0,128,128,0.6);
+    padding: 50px;
     padding-right: 100px;
     margin-left: 60%;
     border-radius: 20px;
@@ -192,6 +208,8 @@ footer p {
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+
+
 }
 
 .hero-content p {
