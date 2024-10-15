@@ -4,15 +4,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const noResults = document.getElementById('no-results');
     const recipesec = document.getElementById('scroller');
     const gotorecipe = document.getElementById('recipe-button');
+    const loader = document.querySelector('.loader');
 
+    // Display the loader initially
+    loader.style.display = 'block';
+
+    // Hide the loader when the page is fully loaded
+    window.addEventListener('load', function() {
+        loader.style.display = 'none';
+    });
 
     gotorecipe.addEventListener('click',function () {
         recipesec.scrollIntoView({behavior:'smooth'});
 
     });
-
-
-
 
     foodImages.forEach(image => {
         image.addEventListener("click", () => {
@@ -31,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const filter = searchInput.value.toLowerCase();
         let found = false;
 
-
         foodImages.forEach(recipe => {
             const recipeName = recipe.querySelector('h3').textContent.toLowerCase();
             if (recipeName.includes(filter)) {
@@ -41,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 recipe.style.display = 'none';
             }
         });
-
 
         if (!found) {
             noResults.style.display = 'block';

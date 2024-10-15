@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --nav-load-time: 700ms;
+    --nav-link-load-time: 700ms;
 
 }
 header {
@@ -18,6 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    animation: nav-load var(--nav-load-time) ease-in;
 
 }
 
@@ -48,6 +51,7 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    animation: nav-link-load var(--nav-link-load-time) ease-in;
 
 
 }
@@ -81,6 +85,7 @@ header {
     align-items: center;
     justify-content: flex-end;
     margin-left: auto;
+    animation: nav-link-load var(--nav-link-load-time) ease-in;
 }
 
 #search {
@@ -220,6 +225,7 @@ footer p {
     border-radius: 20px;
     color: white;
     max-width: 500px;
+    animation: nav-link-load var(--nav-load-time) ease-in 150ms;
 }
 
 .hero-content h1 {
@@ -270,4 +276,23 @@ footer p {
     font-size: 1rem;
 
 
+}
+
+@keyframes nav-load {
+    0%  {
+        transform: translateY(-100%);
+    }
+    100%   {
+        transform: translateY(0);
+    }
+}
+
+@keyframes nav-link-load {
+    0%  {
+        transform: scale(0);
+    }
+
+    100%  {
+        transform: scale(1);
+    }
 }
