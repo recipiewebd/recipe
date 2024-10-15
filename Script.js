@@ -6,13 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const gotorecipe = document.getElementById('recipe-button');
     const loader = document.querySelector('.loader');
 
-    // Display the loader initially
-    loader.style.display = 'none';
 
-    // Hide the loader when the page is fully loaded
-    window.addEventListener('load', function() {
-        loader.style.display = 'none';
-    });
 
     gotorecipe.addEventListener('click',function () {
         recipesec.scrollIntoView({behavior:'smooth'});
