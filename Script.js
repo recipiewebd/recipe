@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const loader = document.querySelector('.loader');
 
     // Display the loader initially
-    loader.style.display = 'block';
+    loader.style.display = 'none';
 
     // Hide the loader when the page is fully loaded
     window.addEventListener('load', function() {
