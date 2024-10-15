@@ -7,7 +7,7 @@
     --duration: 3s;
     width: 200px;
     height: 140px;
-    display: block; /* Change to block to make the loader visible */
+    display: none; /* Change to block to make the loader visible */
     position: fixed; /* Change to fixed to cover the entire viewport */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
