@@ -159,6 +159,12 @@ display: none;
     border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.image:hover{
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.40);
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+
+}
 
 .name {
     font-weight: bold;
