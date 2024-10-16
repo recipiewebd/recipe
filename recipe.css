@@ -45,6 +45,10 @@ header {
     margin-left: -20px;
 }
 
+#login{
+    margin-left: 590px;
+}
+
 
 
 #nav-links {
@@ -295,4 +299,25 @@ footer p {
     100%  {
         transform: scale(1);
     }
+}
+
+.insta{
+    height: 28px;
+    width: 38px;
+}
+
+.discord{
+    height: 30px;
+    width: 30px;
+
+}
+
+.linkedin{
+    height: 30px;
+    width: 30px;
+
+}
+
+.folowuson{
+    margin-left: 15px;
 }
