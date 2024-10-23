@@ -115,6 +115,15 @@ header {
     #search {
         max-width: 150px;
     }
+
+    #headr{
+        flex-wrap: wrap;
+    }
+
+    .header{
+        flex-wrap: wrap;
+    }
+
 }
 
 
