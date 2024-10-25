@@ -398,6 +398,12 @@ footer p {
 
 }
 
+.filter:hover{
+    background-color: #9cc6c6;
+    color: #d5e5e7;
+    transition-timing-function: ease-in-out;
+    transition-duration: 400ms;
+}
 @keyframes nav-load {
     0%  {
         transform: translateY(-100%);
